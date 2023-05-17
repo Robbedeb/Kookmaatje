@@ -1,0 +1,42 @@
+.home{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.kleur{
+  height: 60%;
+  width: 100%;
+  background-color: #34B76A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kleur .titel{
+  margin: 0px;
+  padding: 0px;
+  font-size: 50px;
+}
+
+.knoppen{
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.knoppen .knop{
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px;
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  background-color: #D3D3D3;
+  margin-bottom: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
