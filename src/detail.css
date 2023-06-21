@@ -1,0 +1,65 @@
+.detail-info{
+    padding: 0px 20px
+}
+
+.detail-info h2{
+    font-size: 45px;
+}
+
+.detail-info .label{
+    font-size: 25px;
+}
+
+.detail-info .beschrijving{
+    margin-top: -15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.detail-info .label-ing{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.detail-info .ingredients{
+    margin-top: -15px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    font-size: 20px;
+
+}
+
+.detail-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.detail-info img{
+    border-radius: 20px;
+    height: auto;
+    width: 300px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 30px;
+}
+
+
+.button-edit{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    
+}
+
+.bewerken, .verwijderen{
+    width: 150px;
+    position: relative;
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}

@@ -1,0 +1,52 @@
+
+
+.wave{
+    margin-top: -1px;
+}
+
+
+.toevoeg-form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+.toevoeg-form input{
+    border-radius: 30px;
+    border: #707070 2px solid;
+    height: 50px;
+    padding: 10px;
+}
+.toevoeg-form textarea{
+    border-radius: 30px;
+    border: #707070 2px solid;
+    height: 200px;
+    padding:10px;
+}
+
+.toevoeg-form label{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.toevoeg-form #description{
+    border-radius: 30px;
+    border: #707070 2px solid;
+    height: 110px;
+}
+
+.button-form{
+    position: relative;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.toevoeg-button{
+    right: 0px;
+    width: 150px;
+    position: relative;
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+}

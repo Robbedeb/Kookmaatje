@@ -1,0 +1,52 @@
+.recept{
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    background-color: #D3D3D3;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 45px;
+}
+
+
+.img-container .receptfoto{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 580px) {
+    .img-container .receptfoto{
+        width: 70px;
+        height: 70px;
+    }
+  }
+
+
+.recept .pijl{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.receptlengte{
+    width: 100%;
+}
+
+.zoekbalk{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.zoekbalk input{
+    border-radius: 30px;
+    border: #707070 2px solid;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 45px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
